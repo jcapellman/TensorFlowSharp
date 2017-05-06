@@ -810,8 +810,7 @@ namespace TensorFlowSharpCore
 				// Call constructor here
 				// Wrap the various TF_graphs (with owns=false)
 				// Marshal the condInputs, bodyInputs
-				//
-				TFOutput condOutput;
+				//				
 				string name;
 
 				int n = result.ninputs;

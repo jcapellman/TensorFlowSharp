@@ -171,8 +171,6 @@ namespace TensorFlowSharpCore
 		//
 		TFOutput ShapeTensorOutput (TFShape shape)
 		{
-			Array a;
-
 			if (shape.IsLongArray)
 				return Const (shape.ToArray (), TFDataType.Int64);
 			else

@@ -563,12 +563,7 @@ namespace TensorFlowSharpCore
 				break;
 			default:
 				// Check types that are not handled by the typecode
-				if (t is Complex) {
-					size = 16;
-					dt = TFDataType.Complex128;
-				} else
-					throw new ArgumentException ($"The data type {t} is not supported");
-				break;
+				throw new ArgumentException ($"The data type {t} is not supported");				
 			}
 
 			var dims = new long [array.Rank];

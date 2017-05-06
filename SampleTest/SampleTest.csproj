@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -44,10 +44,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TensorFlowSharp\TensorFlowSharp.csproj">
-      <Project>{0264C321-34F4-46AF-819E-168D1E597232}</Project>
-      <Name>TensorFlowSharp</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Learn\Learn.csproj">
       <Project>{20567EDE-7C20-4734-B489-C6D303843105}</Project>
       <Name>Learn</Name>
