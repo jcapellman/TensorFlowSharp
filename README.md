@@ -1,4 +1,4 @@
-# TensorFlow for .NET Core 1.1
+# TensorFlow for .NET Core 2.0
 
 Just a quick and dirty port of the work Miguel did for the TensorFlorSharp GitHub project (https://github.com/migueldeicaza/TensorFlowSharp)
 
