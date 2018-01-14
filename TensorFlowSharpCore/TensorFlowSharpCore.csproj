@@ -2,13 +2,15 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <PackageId>TensorFlowSharp.Core</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>2.0.0</PackageVersion>
     <Authors>Jarred Capellman</Authors>
-    <Description>.NET Core 1.1 port of the TensorFlow C# Library</Description>
+    <Description>.NET Core 2.0 port of the TensorFlow C# Library</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated the project to .NET Core 2.0</PackageReleaseNotes>
     <Copyright></Copyright>
     <PackageTags>tensorflow tensor core</PackageTags>
+    <Version>2.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
